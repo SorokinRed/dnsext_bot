@@ -1,0 +1,22 @@
+register_page = {
+    "first_name": "//input[@name='first name']",
+    "last_name": "//input[@name='last name']",
+    "organization": "//input[@name='organization']",
+    "address": "//input[@name='address']",
+    "city": "//input[@name='city']",
+    "state": "//input[@name='state']",
+    "country": "//select[contains(@name, 'country_')]",
+    "zip": "//input[@name='zip']",
+    "email": "//input[contains(@name, 'email_')]",
+    "email_again": "//input[contains(@name, 'email again_')]",
+    "phone": "//input[contains(@name, 'phone_')]",
+    "fax": "//input[@name='fax']",
+    "userid": "//input[contains(@name, 'userid_')]",
+    "password": "//input[contains(@name, 'password_')]",
+    "password_again": "//input[contains(@name, 'password again_')]",
+    "secret_question": "//select[contains(@name, 'secret question_')]",
+    "secrect_answer": "//input[contains(@name, 'secrect answer_')]",
+    "vfy": "//input[contains(@name, 'vfy_')]",
+    "authidimg": "//img[@name='authidimg']",
+    "Submit": "//input[@name='Submit']"
+}
